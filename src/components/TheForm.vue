@@ -4,7 +4,7 @@
       class="form-control"
       :class="{ invalid: userNameValidity === 'invalid' }"
     >
-      <label for="user-name">Your Name</label>
+      <label for="user-name">Your Name Test test</label>
       <input
         id="user-name"
         name="user-name"
@@ -15,7 +15,7 @@
       <p v-if="userNameValidity === 'invalid'">Please enter a valid name!</p>
     </div>
     <div class="form-control">
-      <label for="age">Your Age (Years)</label>
+      <label for="age">Your Age test (Years)</label>
       <input
         id="age"
         name="age"
