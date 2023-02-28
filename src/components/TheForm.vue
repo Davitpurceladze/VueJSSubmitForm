@@ -4,7 +4,7 @@
       class="form-control"
       :class="{ invalid: userNameValidity === 'invalid' }"
     >
-      <label for="user-name">Your Name</label>
+      <label for="user-name">Your Name Test for branches</label>
       <input
         id="user-name"
         name="user-name"
